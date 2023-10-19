@@ -12,10 +12,10 @@ body {
 }
 
 .box {
-    background: linear-gradient(hsl(213, 19%, 20%),hsl(213, 19%, 18%));
+    background: linear-gradient(hsl(213, 19%, 16%),hsl(213, 19%, 12%));
     border-radius: 25px;
     width: 20vw;
-    min-width: 450px;
+    min-width: 350px;
     padding: 30px;
     position: absolute;
     top: 50%;
@@ -23,8 +23,40 @@ body {
     transform: translate(-50%, -50%);
 }
 
-footer { 
+#star {
+    background-color: hsl(213, 19%, 21%);
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
     font-weight: 400;
+    margin: 10px 0;
+}
+
+p {
+    font-size: inherit;
+    line-height: 1.75em;
+    color: hsl(216, 12%, 54%);
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label {
+    background-color: hsl(213, 19%, 21%);
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+button {
+    width: 100%;
+}
+
+footer { 
+    font-weight: 300;
     font-size: 11px; 
     text-align: center; 
     position: absolute;
@@ -35,6 +67,7 @@ footer {
 
 footer a { 
     color: hsl(25, 97%, 53%);
+    text-decoration: none;
 }
 
 .thankyou {
