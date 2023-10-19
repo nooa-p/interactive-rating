@@ -1,0 +1,26 @@
+body {
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+
+.box {
+    background: linear-gradient(hsl(213, 19%, 23%),hsl(213, 19%, 18%));
+    border: 0;
+    border-radius: 10px;
+    margin:auto;
+    width: ;
+}
+
+footer { 
+    font-size: 11px; text-align: center; 
+}
+
+footer a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.thankyou {
+    display: none;
+}
