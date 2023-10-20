@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-FKc0keivuC](https://www.frontendmentor.io/solutions/interactive-rating-component-FKc0keivuC)
 - Live Site URL: [https://nooa-p.github.io/interactive-rating/](https://nooa-p.github.io/interactive-rating/)
 
 ## My process
