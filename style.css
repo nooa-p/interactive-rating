@@ -28,6 +28,7 @@ html, body {
     width: 50vw;
     min-width: 280px;
     max-width: 450px;
+    min-height: 330px;
     padding: 30px;
     margin-top: 15px;
 
