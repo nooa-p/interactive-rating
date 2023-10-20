@@ -23,6 +23,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.hidden {
+    display: none;
+}
+
 #star {
     background-color: hsl(213, 19%, 21%);
     padding: 15px;
@@ -107,8 +111,4 @@ footer {
 footer a { 
     color: hsl(25, 97%, 53%);
     text-decoration: none;
-}
-
-.thankyou {
-    display: none;
 }
