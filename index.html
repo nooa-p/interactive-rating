@@ -40,12 +40,13 @@
   </div>
   <!-- Thank you state start -->
   <div class="hidden thankyou">
-  You selected <!-- Add rating here --> out of 5
+  <div><img src="./images/illustration-thank-you.svg" alt="A phone with a credit card & a receipt." id="phone"/></div>
+  <div class="rating"></div>
 
-  Thank you!
+  <h1>Thank you!</h1>
 
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
+  <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</p>
   </div>
   <!-- Thank you state end -->
   </div>
@@ -74,8 +75,8 @@
       let rate = document.querySelector('.rate');
       let thank = document.querySelector('.thankyou');
 
-      console.log(rate);
-      console.log(thank);
+      let rating = document.querySelector('.rating');
+      rating.innerHTML += `You selected ${number} out of 5`;
 
       rate.classList.add("hidden");
       thank.classList.remove("hidden");

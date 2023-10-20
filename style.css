@@ -47,7 +47,7 @@ html, body {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 #star {
@@ -57,9 +57,29 @@ html, body {
     margin-bottom: 10px;
 }
 
+/*#phone {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+}*/
+
 h1 {
     font-weight: 400;
     margin: 10px 0;
+}
+
+.thankyou {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height:100%;
+
+}
+
+.thankyou > p {
+    margin-top: -30px;
 }
 
 p {
@@ -119,4 +139,13 @@ button {
 button:hover {
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%)
+}
+
+.rating {
+    color:hsl(25, 70%, 53%);
+    margin-top: 10px;
+    background-color: hsl(213, 19%, 21%);
+    padding: 7px 20px 5px 20px;
+    border-radius: 20px;
+    line-height: 25px;
 }
